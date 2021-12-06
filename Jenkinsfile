@@ -15,7 +15,7 @@ pipeline {
         
         stage('Build') {
             steps {
-                echo 'Eyyy, esto es Python. No hay que compilar nada!!!'
+                echo 'Eyyy, esto es Python. Tranquilo no hay que compilar nada!!! Sería demasiado dificil'
 		echo 'El workspace contiene el commit \'' + scmVars.GIT_COMMIT + '\' de la rama \'' + scmVars.GIT_BRANCH + '\''
             }
         }
